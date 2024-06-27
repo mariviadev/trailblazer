@@ -4,20 +4,22 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
+        <Image src="/trail-gray.svg" alt="camp" width={30} height={30} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
-          We are here for you
+          plan your journey
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Guide You to Easy Path
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[500px]">
+            We're Making Adventure Easy
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Only with the hilink application you will no longer get lost and get
-            lost again, because we already support offline maps when there is no
-            internet connection in the field. Invite your friends, relatives and
-            friends to have fun in the wilderness through the valley and reach
-            the top of the mountain.
+            Create and customize your routes for hiking, camping, and climbing
+            with detailed maps and guides to ensure your trip is perfectly
+            tailored to your needs. Stay informed and safe with real-time alerts
+            and never forget an essential item again with Trailblazer’s AI
+            assistant, which helps you create custom packing checklists for your
+            specific trip. We make adventure planning effortless so you can enjoy every
+            moment of your outdoor experience with Trailblazer!
           </p>
         </div>
       </div>
@@ -45,13 +47,13 @@ const Guide = () => {
                 <p className="regular-16 text-gray-20">Destination</p>
                 <p className="bold-16 text-green-50">48 min</p>
               </div>
-              <p className="bold-20 mt-2">Aguas Calientes</p>
+              <p className="bold-20 mt-2">Achray Campground</p>
             </div>
 
             <div className="flex w-full flex-col">
-              <p className="regular-16 text-gray-20">Start Track</p>
+              <p className="regular-16 text-gray-20">Starting Point</p>
               <h4 className="bold-20 mt-2 whitespace-nowrap">
-                Wonorejo Pasuruan
+              Grand Lake
               </h4>
             </div>
           </div>

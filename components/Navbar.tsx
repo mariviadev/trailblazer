@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image src="/trailblazer-logo.svg" alt="logo" width={190} height={40} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:text-[#7FAF30]"
           >
             {link.label}
           </Link>

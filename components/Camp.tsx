@@ -54,20 +54,23 @@ const CampSite = ({
 
 const Camp = () => {
   return (
-    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-15 xl:mb-20">
+    <section
+      className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-15 xl:mb-20"
+      id="about"
+    >
       <div className="hide-scrollbar flex h-[340px]w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         {/* TODO animate this to automatically horizontally scroll */}
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          title="Stawamus Chief Mountain"
+          subtitle="Squamish, British Columbia"
+          peopleJoined="1950+ Visited"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          title="Plain of Six Glaciers Trail"
+          subtitle="Lake Louise, Alberta"
+          peopleJoined="1220+ Visited"
           className="lg:rounded-5xl"
         />
       </div>
@@ -76,13 +79,21 @@ const Camp = () => {
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           {/* TODONE change font size for 2xl to 50px */}
           <h2 className="regular-24 md:regular-32 2xl:text-[50px] text-white">
-            <strong>Feeling Lost</strong> and Not Knowing the Way?
+            <strong>Feeling Lost</strong> and Don't Know Where to Go?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Starting from the anxiety of the climbers when visiting a new
-            climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure.
+            Discover stunning locations for your next adventures with our
+            curated lists of the best camping spots, hiking trails, climbing
+            sites, and hidden gems. Find and join camping trips, climbing
+            events, and other outdoor adventures near you.
           </p>
-          <Image src="/quote.svg" alt="quote symbol" width={186} height={219} className="camp-quote" />
+          <Image
+            src="/quote.svg"
+            alt="quote symbol"
+            width={186}
+            height={219}
+            className="camp-quote"
+          />
         </div>
       </div>
     </section>

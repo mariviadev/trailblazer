@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const GetApp = () => {
   return (
-    <section className="flexCenter w-full flex-col pb-[100px]">
+    <section className="flexCenter w-full flex-col pb-[100px]" id="download">
       <div className="get-app">
         {/* LEFT SIDE */}
         <div className="z-20 flex flex-col flex-1 w-full items-start justify-center gap-12">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
-            Get for free now!
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[350px]">
+            Get for free today!
           </h2>
           <p className="regular-16 text-gray-10">
-            Available on iOS and Android
+            Now available on both iOS and Android platforms.
           </p>
 
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">

@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "#home", key: "home", label: "Home" },
+  { href: "#about", key: "about", label: "About" },
+  { href: "#features", key: "features", label: "Features" },
+  { href: "#download", key: "download ", label: "Download" },
+  { href: "#contact", key: "contact", label: "Contact" },
 ];
 
 // CAMP SECTION
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Live Safety Alerts",
     icon: "/map.svg",
     variant: "green",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "Receive real-time safety alerts about weather changes, wildlife sightings, and other potential hazards to keep you and your group safe during your adventure.",
   },
   {
-    title: "Set an adventure schedule",
+    title: "Packing Assistant",
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Use Trailblazer’s AI assistant to create custom checklists and plan trips ahead of time to ensure you never forget an essential item again.",
   },
   {
-    title: "Technology using augment reality",
+    title: "Capture and Share Memories",
     icon: "/tech.svg",
     variant: "green",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "Inspire others with your adventures by recording your trips, including photos and live videos, and share your experiences with the Trailblazer communities.",
   },
   {
-    title: "Many new locations every month",
+    title: "Discover More Hidden Gems",
     icon: "/location.svg",
     variant: "orange",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Find or share new locations and hidden gems with other adventurers. Explore off-the-beaten-path spots recommended by fellow outdoor enthusiasts.",
   },
 ];
 
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Hilink",
+      "About Trailblazer",
       "Press Releases",
       "Environment",
       "Jobs",
@@ -62,15 +62,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["Climbing: Summit Seekers", "Hiking: Trail Trekkers", "Camping: Campfire Crew"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Admin Guides", value: "123-456-7890" },
+    { label: "Support Officer", value: "support@trailblazer.com" },
   ],
 };
 
